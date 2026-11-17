@@ -1,1 +1,3 @@
-print(len(bin(int(input()))[2:]))
+n =(bin(int(input()))[2:])
+num = n.count('1')
+print(num)
